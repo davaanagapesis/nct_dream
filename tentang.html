@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NCT DREAM</title>
+  <link rel="stylesheet" href="css/styless.css">
+</head>
+
+<button onclick="window.location.href='index.html'" class="back-button">
+    Back to Home
+  </button>
+<body>
+
+  <div class="container">
+    <div class="card-grid">
+      <!-- Member Cards -->
+      <div class="card" onclick="showMemberBio('Mark Lee')">
+        <div class="background" style="background-image: url('image/A1.jpg');"></div>
+        <div class="content">
+          <h3>Mark Lee</h3>
+        </div>
+      </div>
+      <div class="card" onclick="showMemberBio('Huang Renjun')">
+        <div class="background" style="background-image: url('image/A2.jpg');"></div>
+        <div class="content">
+          <h3>Huang Renjun</h3>
+        </div>
+      </div>
+      <div class="card" onclick="showMemberBio('Lee Jeno')">
+        <div class="background" style="background-image: url('image/A3.jpg');"></div>
+        <div class="content">
+          <h3>Lee Jeno</h3>
+        </div>
+      </div>
+      <div class="card" onclick="showMemberBio('Lee Haechan')">
+        <div class="background" style="background-image: url('image/A4.jpg');"></div>
+        <div class="content">
+          <h3>Lee Haechan</h3>
+        </div>
+      </div>
+      <div class="card" onclick="showMemberBio('Na Jaemin')">
+        <div class="background" style="background-image: url('image/A5.jpg');"></div>
+        <div class="content">
+          <h3>Na Jaemin</h3>
+        </div>
+      </div>
+      <div class="card" onclick="showMemberBio('Zhong Chenle')">
+        <div class="background" style="background-image: url('image/A6.jpg');"></div>
+        <div class="content">
+          <h3>Zhong Chenle</h3>
+        </div>
+      </div>
+      <div class="card" onclick="showMemberBio('Park Jisung')">
+        <div class="background" style="background-image: url('image/A7.jpg');"></div>
+        <div class="content">
+          <h3>Park Jisung</h3>
+        </div>
+      </div>
+      <div class="card" onclick="showMemberBio('NCT Dream')">
+        <div class="background" style="background-image: url('image/full.jpg');"></div>
+        <div class="content">
+          <h3>NCT Dream</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal for Member Bio -->
+  <div id="bioModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <div id="bioContent"></div>
+    </div>
+  </div>
+
+  <script src="js/tentang.js"></script>
+</body>
+</html>
