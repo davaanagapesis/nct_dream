@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NCT DREAM</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Boy Group NCT DREAM</h1>
+            <img src="image/nct.png" alt="NCT DREAM Logo" class="logo">
+        </header>
+
+        <nav class="main-nav">
+            <ul>
+                <li><a href="tentang.html" onclick="showContent('tentang')">Tentang</a></li>
+                <li><a href="member.html" onclick="showContent('member')">Member</a></li>
+            </ul>
+        </nav>
+
+        <aside>
+            <h3>NCT DREAM Member Profile</h3>
+            <div id="member-list">
+                <a href="#" onclick="showMember('Mark Lee')">Mark Lee</a>
+                <a href="#" onclick="showMember('Huang Renjun')">Huang Renjun</a>
+                <a href="#" onclick="showMember('Lee Jeno')">Lee Jeno</a>
+                <a href="#" onclick="showMember('Lee Haechan')">Lee Haechan</a>
+                <a href="#" onclick="showMember('Na Jaemin')">Na Jaemin</a>
+                <a href="#" onclick="showMember('Zhong Chenle')">Zhong Chenle</a>
+                <a href="#" onclick="showMember('Park Jisung')">Park Jisung</a>
+            </div>
+        </aside>
+
+        <main id="content">
+            <p>Select a member to view their profile.</p>
+        </main>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
